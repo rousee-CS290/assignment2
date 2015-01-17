@@ -1,45 +1,80 @@
-table{
+table {
 	border-collapse: collapse;
 	border: solid thick;
+	empty-cells: show;
 }
+
 colgroup, tbody {
 	border: solid medium;
 }
-td{
-	border: solid thin;
+
+
+td {
+	/*border: solid thin;*/
 	height: 1.4em;
-	width: 1.4em; 
+	width: 15%; 
     text-align: center;
     padding: 0;
 }
-div.foo{
-	background: blue;
+
+th {
+	background: white;
 }
 
-div.foo:hover{
-	background: green;
+div#foot{
+	background: white;
 }
 
-div.foo.bar{
-	background: red;
+tr:nth-child(odd) {
+	background: lightgreen;
 }
 
-div#baz{
-	background: yellow;
+tr:nth-child(even) {
+	background: lightblue;
 }
 
-a:visited{
-	color:green;
+td:first-child{
+	font-style: italic;
 }
 
-a:link{
-	color: violet;
-}
-
-a:focus{
+td:nth-child(2){
 	color: red;
 }
 
-a:nth-child(2){
+td:nth-child(4){
+	color: blue;
+}
+
+
+
+div.foo {
+	background: blue;
+}
+
+div.foo:hover {
+	background: green;
+}
+
+div.foo.bar {
+	background: red;
+}
+
+div#baz {
+	background: yellow;
+}
+
+a:visited {
+	color:green;
+}
+
+a:link {
+	color: violet;
+}
+
+a:focus {
+	color: red;
+}
+
+a:nth-child(2) {
 	color: brown;
 }
