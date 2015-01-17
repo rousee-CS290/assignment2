@@ -1,13 +1,16 @@
+body {
+	background: white;
+}
+
 table {
 	border-collapse: collapse;
 	border: solid thick;
 	empty-cells: show;
 }
 
-colgroup, tbody {
+tbody {
 	border: solid medium;
 }
-
 
 td {
 	/*border: solid thin;*/
@@ -17,12 +20,14 @@ td {
     padding: 0;
 }
 
+
 th {
 	background: white;
+	font-family: bold;
 }
 
-div#foot{
-	background: white;
+td:first-child{
+	font-style: italic;
 }
 
 tr:nth-child(odd) {
@@ -33,8 +38,14 @@ tr:nth-child(even) {
 	background: lightblue;
 }
 
-td:first-child{
-	font-style: italic;
+tr#trfooter{
+	background: white;
+}
+
+td#tdfooter1, td#tdfooter2{
+	font-style: normal;
+	color: black;
+	border: solid thin;
 }
 
 td:nth-child(2){
@@ -45,7 +56,9 @@ td:nth-child(4){
 	color: blue;
 }
 
-
+dt:hover+dd{
+	background-color: purple;
+}
 
 div.foo {
 	background: blue;
