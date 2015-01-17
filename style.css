@@ -1,0 +1,45 @@
+table{
+	border-collapse: collapse;
+	border: solid thick;
+}
+colgroup, tbody {
+	border: solid medium;
+}
+td{
+	border: solid thin;
+	height: 1.4em;
+	width: 1.4em; 
+    text-align: center;
+    padding: 0;
+}
+div.foo{
+	background: blue;
+}
+
+div.foo:hover{
+	background: green;
+}
+
+div.foo.bar{
+	background: red;
+}
+
+div#baz{
+	background: yellow;
+}
+
+a:visited{
+	color:green;
+}
+
+a:link{
+	color: violet;
+}
+
+a:focus{
+	color: red;
+}
+
+a:nth-child(2){
+	color: brown;
+}
