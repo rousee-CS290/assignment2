@@ -21,11 +21,38 @@
    </table>
    <dl>
     <dt>dl item 1
-      <dd id="dl1">dl1 sub item
+      <dd>dl1 sub item
     <dt>dl item 2
       <dd>dl2 sub item
     <dt>dl item 3
       <dd>dl3 sub item
     </dl>
+    <div class="form">
+      <p>GET Form:</p>
+      <form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php"
+      method = "get">
+        <p>Text: <input type="text" name="text_input">
+        Number: <input type="number" name="numerical_input">
+        Password: <input type="password" name="password_input"></p>
+        <p><input type="radio" name="candy" value="Snickers"> Snickers
+        <input type="radio" name="candy" value="Skittles"> Skittles
+        <input type="radio" name="candy" value="Mentos"> Mentos</p>
+        <p><input type="submit"></p>
+      </form>
+    </div>
+    <br>
+    <div class="form">
+      <p>POST Form:</p>
+      <form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php"
+      method = "post">
+        <p>Text: <input type="text" name="text_input">
+        Number: <input type="number" name="numerical_input">
+        Password: <input type="password" name="password_input"></p>
+        <p><input type="radio" name="candy" value="Snickers"> Snickers
+        <input type="radio" name="candy" value="Skittles"> Skittles
+        <input type="radio" name="candy" value="Mentos"> Mentos</p>
+        <p><input type="submit"></p>
+      </form>
+    </div>
   </body>  
 </html>

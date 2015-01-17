@@ -60,8 +60,9 @@ dt:hover+dd{
 	background-color: purple;
 }
 
-div.foo {
-	background: blue;
+div.form {
+	border: solid thin;
+	padding: 1.4em;
 }
 
 div.foo:hover {
